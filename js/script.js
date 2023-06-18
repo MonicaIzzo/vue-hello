@@ -10,3 +10,20 @@ BONUS: proviamo ad aggiungere un'immagine, derivante anch'essa dai dati di Vue.
 // # verifiche JS
 console.log('JS OK')
 console.log('Vue OK, Vue');
+
+// # inizializzo Vue JS
+
+    //Estrapolo il metodo createApp
+    const {createApp} = Vue;
+
+    //inizializzo Vue JS
+    const app = createApp({
+        data() {
+            return {
+                imgVueJs: "vuejs-development-malaysia.jpeg"
+            }
+        }
+    });
+
+    //La monto nell'elemento HTML "radice"
+    app.mount('#root');
