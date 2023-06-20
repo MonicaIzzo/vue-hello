@@ -8,19 +8,17 @@ BONUS: proviamo ad aggiungere un'immagine, derivante anch'essa dai dati di Vue.
 */
 
 // # verifiche JS
-console.log('JS OK')
+console.log('JS OK');
 console.log('Vue OK, Vue');
 
 // # inizializzo Vue JS
 
     //Estrapolo il metodo createApp
-    const {createApp} = Vue;
-
-    //inizializzo Vue JS
-    const app = createApp({
+    const app = Vue.createApp ({
         data() {
             return {
-                imgVueJs: "vuejs-development-malaysia.jpeg"
+                message: 'Hello Vue JS',
+                imgVueJs: 'vuejs-development-malaysia.jpeg'
             }
         }
     });
