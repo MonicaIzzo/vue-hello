@@ -18,7 +18,7 @@ console.log('Vue OK, Vue');
         data() {
             return {
                 message: 'Hello Vue JS',
-                imgVueJs: 'vuejs-development-malaysia.jpeg'
+                imgVueJs: 'img/vuejs-development-malaysia.jpeg'
             }
         }
     });
